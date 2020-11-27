@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 /**
  * @Author:张生
- * @Blog:http://hrmnzone.cn
+ * @Blog:http://www.bytetoy.cn
  * @Organization:荆州青年教育平台(https://jzyouth.com),专注职业资格培训、学历提升
  * @Description:
  */
@@ -37,7 +37,7 @@ public class CMD {
     public static void main(String[] args) throws IOException {
         CMD cmd=new CMD();
 //        System.out.println(cmd.rename("/home/neal/doc/单招试题/打印/2017年单招考试一类文化水平考试试题.pdf"));
-//        cmd.doFile("/home/neal/doc/单招试题/打印/2017年单招考试一类文化水平考试试题.pdf","fuck");
+//        cmd.doFile("/home/neal/workspace/2017.pdf","石家庄理工职业学院\n招生电话：13933885316\nQQ：30710311");
 //        cmd.doDir("/home/neal/doc/单招试题/打印","石家庄理工职业学院\n招生电话：13933885316\nQQ：30710311");
     }
 

@@ -26,12 +26,25 @@ public class ConfigReader {
             angle=config.getFloat("angle");
             opacity=config.getFloat("opacity");
             size=config.getInt("size");
+            cR=config.getInt("cR");
+            cG=config.getInt("cG");
+            cB=config.getInt("cB");
         } catch (ConfigurationException e) {
-            System.out.println("not found file");
-            e.printStackTrace();
+            System.out.println("使用默认水印样式配置");
+            leftPostition=3;
+            widthPosition=3;
+            bottomPosition=5;
+            angle=120f;
+            opacity=0.4f;
+            size=15;
+            cR=190;
+            cG=190;
+            cB=250;
+//            e.printStackTrace();
         }
-        System.out.println(leftPostition+"-"+widthPosition+"-"+bottomPosition+"-"+angle);
+//        System.out.println(leftPostition+"-"+widthPosition+"-"+bottomPosition+"-"+angle);
     }
+
 
     public static void main(String[] args) {
         ConfigReader reader=new ConfigReader();
